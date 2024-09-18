@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="HOME_LOG" value="log/mylogs.log"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    	<append>true</append>
+    	
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${HOME_LOG}</file>
+        <!-- <file>log/mylogs.log</file> -->
+        
+        <append>true</append>
+        <encoder>
+            <pattern> [%-5level] %d{dd-MM-yyyy hh:mm:ss.SSS a}   %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+<!-- additivity as false appends only to file and not to console -->
+    <logger name="com.hms.service" level="info" additivity="false">
+        <!-- <appender-ref ref="CONSOLE"/> -->
+        <appender-ref ref="FILE"/>
+    </logger>
+
+	<logger name="com.hms.exception" level="info" additivity="false">
+        <!-- <appender-ref ref="CONSOLE"/> -->
+        <appender-ref ref="FILE"/>
+    </logger>
+    
+    <logger name="com.hms.exception" level="error" additivity="false">
+        <!-- <appender-ref ref="CONSOLE"/> -->
+        <appender-ref ref="FILE"/>
+    </logger>
+    
+     <logger name="com.hms.service" level="error" additivity="false">
+        <!-- <appender-ref ref="CONSOLE"/> -->
+        <appender-ref ref="FILE"/>
+    </logger>
+	
+	
+	 <logger name="com.hms.service" level="debug" additivity="false">
+        <!-- <appender-ref ref="CONSOLE"/> -->
+        <appender-ref ref="FILE"/>
+    </logger>
+	
+   <!--  <root level="debug">
+        <appender-ref ref="CONSOLE"/>
+    </root> -->
+    
+     <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+    
+    <logger name="com.hms" level="Info" additivity="false">
+    	<appender-ref ref="CONSOLE"/>
+    
+    </logger>
+    
+     <logger name="com.hms" level="error" additivity="false">
+    	<appender-ref ref="CONSOLE"/>
+    
+    </logger> 
+    
+    <logger name="com.hms" level="debug" additivity="false">
+    	<appender-ref ref="CONSOLE"/>
+    
+    </logger>
+    
+</configuration>

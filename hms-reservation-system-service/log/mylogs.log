@@ -1,0 +1,110 @@
+[ERROR] 14-09-2024 07:58:24.426 pm   com.hms.exception.GlobalExceptionHandler - Your Reservation details not found by 2
+[INFO ] 14-09-2024 07:58:28.704 pm   com.hms.service.ReservationServiceimpl - reservation details found by 1
+[INFO ] 15-09-2024 04:56:46.315 pm   com.hms.service.ReservationServiceimpl - reservation details found by 1
+[ERROR] 15-09-2024 04:57:05.115 pm   com.hms.exception.GlobalExceptionHandler - Your Reservation details not found by 2
+[INFO ] 15-09-2024 04:58:39.899 pm   com.hms.service.ReservationServiceimpl - Reservation data displayed by byCheckOutAfter Current Date
+[INFO ] 15-09-2024 05:02:24.913 pm   com.hms.service.ReservationServiceimpl - Reservation data displayed by byCheckOutAfter Current Date
+[INFO ] 15-09-2024 09:41:57.534 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 15-09-2024 09:43:06.423 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 15-09-2024 09:46:11.542 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 15-09-2024 10:00:37.451 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:34:38.083 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 10:37:03.732 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:39:28.431 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:40:01.107 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 10:42:04.349 am   com.hms.service.ReservationServiceimpl - reservation details found by 1
+[INFO ] 16-09-2024 10:42:16.566 am   com.hms.service.ReservationServiceimpl - reservation details found by 2
+[ERROR] 16-09-2024 10:42:20.964 am   com.hms.exception.GlobalExceptionHandler - Your Reservation details not found by 3
+[INFO ] 16-09-2024 12:03:59.262 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[ERROR] 16-09-2024 12:25:17.931 pm   com.hms.exception.GlobalExceptionHandler - checkout must be after check in
+[ERROR] 16-09-2024 12:25:29.691 pm   com.hms.exception.GlobalExceptionHandler - checkout must be after check in
+[INFO ] 16-09-2024 12:25:46.482 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 16-09-2024 02:54:37.054 pm   com.hms.exception.GlobalExceptionHandler - could not execute statement [Duplicate entry 'R101' for key 'room_details.UKm8mhffugmny28q9c34fwesiyu'] [insert into room_details (amount,check_in,check_out,room_no,room_type) values (?,?,?,?,?)]; SQL [insert into room_details (amount,check_in,check_out,room_no,room_type) values (?,?,?,?,?)]; constraint [room_details.UKm8mhffugmny28q9c34fwesiyu]
+[INFO ] 16-09-2024 02:55:17.533 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 02:56:41.737 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 16-09-2024 02:58:36.432 pm   com.hms.exception.GlobalExceptionHandler - checkout must be after check in
+[INFO ] 16-09-2024 02:58:54.103 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:11:47.503 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 16-09-2024 09:12:54.054 pm   com.hms.exception.GlobalExceptionHandler - Authentication failed
+[INFO ] 16-09-2024 09:21:18.251 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 09:22:45.902 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:23:43.387 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 09:23:54.936 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[ERROR] 16-09-2024 09:27:16.213 pm   com.hms.exception.GlobalExceptionHandler - Your Reservation not found by 3
+[INFO ] 16-09-2024 09:27:42.711 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 09:27:56.563 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:29:37.531 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 09:30:00.130 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:30:10.063 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[ERROR] 16-09-2024 09:30:16.608 pm   com.hms.exception.GlobalExceptionHandler - Your Reservation not found by 4
+[INFO ] 16-09-2024 09:30:23.319 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:35:47.814 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:36:11.268 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 09:36:21.678 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:36:43.898 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 09:36:52.396 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:42:39.282 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 09:43:29.392 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 09:43:42.283 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:45:07.884 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 09:45:43.231 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 09:45:55.062 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 09:46:31.375 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:02:10.073 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 10:02:21.109 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 16-09-2024 10:03:02.414 pm   com.hms.exception.GlobalExceptionHandler - [401] during [POST] to [http://payment-details/bills/fetching] [SetRatesClient#saveGuestDetails(Reservation)]: []
+[ERROR] 16-09-2024 10:11:13.720 pm   com.hms.exception.GlobalExceptionHandler - [503] during [POST] to [http://payment-details/bills/fetching] [SetRatesClient#saveGuestDetails(Reservation)]: [Load balancer does not contain an instance for the service payment-details]
+[INFO ] 16-09-2024 10:11:50.866 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 10:14:50.860 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 10:15:01.108 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:16:25.130 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 10:16:51.787 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:16:56.890 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 16-09-2024 10:17:26.293 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 16-09-2024 10:17:36.605 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 10:17:40.176 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 16-09-2024 10:17:45.633 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 09:25:22.763 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 09:25:44.800 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 09:26:11.671 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 09:27:04.038 am   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 17-09-2024 09:27:24.685 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 09:28:40.673 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 10:40:24.709 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 10:41:09.007 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 17-09-2024 10:41:19.499 am   com.hms.exception.GlobalExceptionHandler - room already reserved
+[ERROR] 17-09-2024 10:41:51.071 am   com.hms.exception.GlobalExceptionHandler - room already reserved
+[ERROR] 17-09-2024 10:42:25.509 am   com.hms.exception.GlobalExceptionHandler - checkout must be after check in
+[INFO ] 17-09-2024 10:42:35.853 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 10:43:08.236 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 17-09-2024 10:43:29.731 am   com.hms.exception.GlobalExceptionHandler - room already reserved
+[INFO ] 17-09-2024 10:45:53.030 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 10:49:25.915 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 10:49:49.440 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 17-09-2024 10:50:07.360 am   com.hms.exception.GlobalExceptionHandler - room already reserved
+[INFO ] 17-09-2024 10:55:17.478 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 10:55:31.345 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 10:56:01.326 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 10:56:16.505 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 10:58:39.881 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 10:59:11.585 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[ERROR] 17-09-2024 10:59:15.701 am   com.hms.exception.GlobalExceptionHandler - room already reserved
+[ERROR] 17-09-2024 10:59:26.945 am   com.hms.exception.GlobalExceptionHandler - room already reserved
+[ERROR] 17-09-2024 11:21:23.477 am   com.hms.exception.GlobalExceptionHandler - [401] during [GET] to [http://payment-details/bills/deleteFetchingDto/1] [SetRatesClient#deleteFetchingDto(int)]: []
+[ERROR] 17-09-2024 11:22:01.249 am   com.hms.exception.GlobalExceptionHandler - [401] during [GET] to [http://payment-details/bills/deleteFetchingDto/1] [SetRatesClient#deleteFetchingDto(int)]: []
+[INFO ] 17-09-2024 11:22:13.760 am   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[ERROR] 17-09-2024 11:22:34.687 am   com.hms.exception.GlobalExceptionHandler - [401] during [GET] to [http://payment-details/bills/deleteFetchingDto/1] [SetRatesClient#deleteFetchingDto(int)]: []
+[INFO ] 17-09-2024 11:31:37.149 am   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 11:32:09.811 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 11:32:36.950 am   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 12:05:10.581 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 17-09-2024 12:06:07.511 pm   com.hms.service.ReservationServiceimpl - Reservation data added successfuly
+[INFO ] 17-09-2024 12:06:58.170 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 17-09-2024 12:07:10.329 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[ERROR] 17-09-2024 04:40:27.686 pm   com.hms.exception.GlobalExceptionHandler - Connect timed out executing POST http://10.77.8.111:8080/bills/fetching
+[INFO ] 18-09-2024 02:35:06.250 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 18-09-2024 02:35:45.145 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 18-09-2024 02:36:33.688 pm   com.hms.service.ReservationServiceimpl - Your Room reservation is Cancelled
+[INFO ] 18-09-2024 02:36:58.756 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[INFO ] 18-09-2024 02:37:06.309 pm   com.hms.service.RoomDetailsServiceImpl - Rooms are available
+[ERROR] 18-09-2024 03:05:29.771 pm   com.hms.exception.GlobalExceptionHandler - Floor number not found by 7

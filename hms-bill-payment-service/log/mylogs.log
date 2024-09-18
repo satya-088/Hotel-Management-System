@@ -1,0 +1,6 @@
+[INFO ] 16-09-2024 10:40:31.450 am   com.hms.service.SetRatesServiceImplementation - successfully saved the Set Rates
+[INFO ] 16-09-2024 10:41:23.998 am   com.hms.service.PaymentServiceImplementation - payment successfully saved
+[INFO ] 16-09-2024 10:41:43.265 am   com.hms.service.BillServiceImpementation - Bill succesfully generated
+[INFO ] 17-09-2024 11:00:18.976 am   com.hms.service.SetRatesServiceImplementation - successfully saved the Set Rates
+[INFO ] 17-09-2024 11:00:37.886 am   com.hms.service.PaymentServiceImplementation - payment successfully saved
+[INFO ] 17-09-2024 11:00:55.120 am   com.hms.service.BillServiceImpementation - Bill succesfully generated
